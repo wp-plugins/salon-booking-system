@@ -13,6 +13,11 @@ Salon booking creates a complete booking system inside your wordPress installati
 
 == Description ==
 
+———— ATTENTION DO NOT DOWNLOAD THE PLUGIN YET PLEASE ————
+———— ATTENTION DO NOT DOWNLOAD THE PLUGIN YET PLEASE ————
+———— ATTENTION DO NOT DOWNLOAD THE PLUGIN YET PLEASE ————
+
+
 Salon booking, is a plugin for WordPress based websites that creates a complete and easy to manage booking system in order to give your customers the ability to book for one or more services on your website.
 
 Salon booking  is the best solution for Hair dresser salons, Barber shop, Beauty salons and Spas that want to offer a quality online booking service to their clients.
