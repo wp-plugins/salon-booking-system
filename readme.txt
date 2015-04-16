@@ -34,7 +34,52 @@ This section describes how to install the plugin and get it working.
 
 == Frequently Asked Questions ==
 
-= What happen when plugin reach its booking limit? =
+
+= What kind of business this plugins best fits? =
+
+This plugin has been developed thinking about the specific need of Barber Shop, Hairdressing salon, Beauty Centers and Spas.
+
+ 
+= Which version of WordPress this plugin requires? =
+
+The plugin has been tested on WordPress 4.0
+
+ 
+= Which version of php is supported? =
+
+The plugin supports php 5.2 and above version.
+
+ 
+= Is it possible to accept online payments? =
+
+Yes. At the moment only PayPal as payment gateway is supported.
+
+Do you need a custom payment gateway? Please contact us.
+
+ 
+
+= Is it multi language ready? =
+
+The plugin can be translated in any languages  creating a .po file or using WPML plugin translating the strings.
+
+At the moment is available english and italian localization versions.
+In the next future we are going to release other localizated versions of the plugin.
+
+ 
+= Are there any conflicts with other plugins? =
+
+At the moment we didn’t spot any conflicts with other plugins.
+
+ 
+= Is it possible to customize the look and feel of the plugin front-end? =
+
+Every front-end element of the booking process has its own css class, so you can easily customize it.
+
+= What is the limit of the free version? =
+
+You can accept up to 50 reservations
+
+= What happen when plugin free version reach its booking limit? =
 
 You should buy the PRO version here.
 http://plugins.wpchef.it/downloads/salon-booking-wordpress-plugin/
