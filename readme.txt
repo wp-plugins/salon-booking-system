@@ -22,6 +22,41 @@ Salon booking is provided with a intuitive back-end bookings calendar where the 
 
 [youtube https://www.youtube.com/watch?v=ZrFBk5jME6w]
 
+Features of the plugin include:
+
+* Intuitive bookings calendar
+
+Administrator has a full overview of the upcoming bookings for every single day of the month. Clicking on a single calendar day a list with all reservations will be displayed. Every single booking is linked to its own details page.
+
+
+* Set your own booking rules
+
+Administrator can set how many people can book for the same date/time and how long last on average a single slot (time/session). This setting should represent the capacity of your salon of attending people one or more people at same time.
+
+* Set your salon timetable
+
+Administrator can set the open and closing days and the time slots using our multiple rules system. This will be reflected on front-end bookings calendar.
+
+* Accept online Payments
+Salon booking is ready to accept online payments with Paypal. You can decide if user can pay in advance using credit cards or “pay later” once arrived at the salon.
+
+
+* Create as many services as you want
+Easily create as many services as you need, edit or delete them as a simple post.
+
+
+* Full control of every single service
+Set  its price, duration, days of non availability, and a brief description. You can even make a difference between “main” and “optional” services.
+
+* Full control of every single booking
+When you receive a reservation you can view and eventually edit its own details. You can easily Add a new booking manually as you should for a post.
+
+* Nice emails confirmation
+When you receive a new reservation an email will be sent to you and to your client with all booking details.
+
+
+More information at [Salon booking](http://salon.wpchef.it/).
+
 
 == Installation ==
 
