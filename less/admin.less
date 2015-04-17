@@ -1,0 +1,392 @@
+@import "bootstrap.less";
+@import "settings-mixins.less";
+
+
+
+.sln_meta_field {
+    display: block;
+}
+
+.sln-date select {
+    width: auto
+}
+
+.sln-clear {
+    display: block;
+    clear: both;
+    height: 1px;
+    width: 100%;
+}
+
+#sln-availabilities div.item {
+    border: 1px solid #dfdfdf;
+    padding: 10px;
+    margin: 2px;
+}
+
+.sln-tab {
+    border: 1px solid #ccc;
+    border-top-width: 0;
+    background: #f1f1f1;
+    padding: 30px;
+    .form-group label input {
+        display: inline-block;
+        margin-top: -3px
+    }
+}
+
+.sln-separator {
+    height: 1px;
+    border-top: 1px solid #ddd;
+    margin: 2em auto;
+    width: 100%;
+    clear: both;
+}
+
+//
+.sln-tab {
+    #sln-availabilities .items .item {
+        padding: 1.4em;
+        margin: 1em 0;
+        .col-md-12 {
+            padding-left: 0;
+            @media @phone {
+                padding-right: 0;
+            }
+        }
+        .first-row {
+            margin-bottom: 1.4em;
+            .form-group {
+                padding-right: 2em;
+                @media @tablet-port {
+                    padding-right: 1em;
+                }
+                @media @phone {
+                    display: block;
+                    width: 50%;
+                    float: left;
+                    margin: 0 0 2em 0em;
+                    &:last-child {float: none;}
+                }
+            } 
+        }
+    }
+
+    .setting-interval {margin-top: 1.4em;}
+    input[type="radio"], input[type="checkbox"] {
+        margin: 0 .5em;
+    }
+
+    .settings-allowed {
+        @media @tablet-port {
+            .col-md-5:nth-child(1) {margin-bottom: 1.4em;}
+        }
+        @media @phone {
+            .col-md-5:nth-child(1) {margin-bottom: 1.4em;}
+            select {margin: .2em 0;}
+        }
+    }
+
+    .settings-disable, .settings-confirmation {
+        @media @tablet-port {
+            .col-md-6:nth-child(1) {margin-bottom: 1.4em;}
+        }
+    }
+}
+
+.salon_page_salon-settings.wp-core-ui .button-primary {
+    color: #ffffff;
+    background: @ca-blue;
+    border-color: @ca-blue;
+
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: .6em 2.6em;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    box-shadow: none;
+    height: auto;
+
+    &:hover {
+        background: #3071a9;
+        border-color: #285e8e;
+    }
+}
+.salon_page_salon-settings.wp-core-ui .sln-tab .button-primary  {margin: 0 0 0 -1em;}
+
+// TABS
+h2.nav-tab-wrapper {
+    img {
+        margin-right: 10px;
+    }
+    @media only screen and (max-width: 567px) {
+        // TABS SU SMARTPHONE IN PORT.
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 10px;
+        position: relative;
+        img {
+            margin-bottom: 10px;
+            position: absolute;
+            right: 0;
+            top: -25px;
+        }
+        .nav-tab {
+            display: block;
+            margin-right: 0;
+            font-size: 12px;
+            line-height: 12px;
+            padding: 10px;
+        }
+        // TABS SU SMARTPHONE IN PORT. END
+    }
+
+    @media only screen and (min-width: 568px) {
+        // TABS SU SMARTPHONE IN PORT.
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 10px;
+        position: relative;
+        img {
+            margin-bottom: 0;
+        }
+        .nav-tab {
+            display: inline-block;
+            margin-right: 0;
+            font-size: 12px;
+            line-height: 12px;
+            padding: 10px;
+        }
+        // TABS SU SMARTPHONE IN PORT. END
+    }
+
+}
+// TABS END
+
+
+@media @tablet-port {
+    .sln-tab {
+           #sln-availabilities .items .item .btn.btn-block.btn-danger {
+            width: 25%;
+            float: right;
+            margin-top: 1em;
+           }
+           #sln-availabilities .col-md-2.pull-right {width: 29%; margin-top: 1em;}
+    }
+}
+@media @phone {
+    .sln-tab {
+           #sln-availabilities .items .item .btn.btn-block.btn-danger {margin-top: 2em;}
+           #sln-availabilities .col-md-2.pull-right {width: 100%; margin-top: 1em;}
+           .row:nth-child(1) .col-md-6:nth-child(1) {
+                padding-left: 0; 
+                padding-right: 0;
+                .form-group, p {margin-bottom: 0;}
+            }
+    }
+
+    //#sln-tab-payments .row {padding-bottom: 1.4em;}
+    //#sln-tab-payments .row > div {padding-bottom: 1.4em;}
+    //#sln-tab-payments .row .form-group {margin-bottom: 0;}
+
+   
+}
+
+
+
+// /// /// /// /// /// /// /// //
+// /// SERVICES
+// /// /// /// /// /// /// /// //
+
+#sln_service-details {
+    padding-bottom: 2em;
+
+    em {color: #aaa;}s
+    h3:nth-child(3) {padding-left: 0;}
+
+    .sln-service-price-time {
+        input[type='text'] {
+            padding: 3px 10px;
+            height: auto;
+            @media @tablet-port {height: 34px;}
+        }
+
+        .col-xs-6:nth-child(4){
+            @media @phone-port {
+                width: 100%;
+            }
+        }
+    }
+
+    #_sln_service_secondary {display: block;}
+    
+    input[type="radio"], input[type="checkbox"] {
+        margin: 0 .5em;
+    }
+
+    #_sln_service_secondary {
+        @media @phone {margin: 0 .5em -.6em 0;}
+    }
+
+    .services-notavailable {
+        margin: 0 0 1em -.5em;
+        @media @phone {margin: 0 0 2em -.5em;}
+        @media @tablet {margin: 0 0 2em -.5em;}
+        label {
+            margin-right: 2em;
+            @media only screen and (min-width: 951px) and (max-width: 1279px) {margin-right: .5em;}
+            @media @phone {
+                display: block;
+                width: 50%;
+                float: left;
+                margin: 0 0 2em 0em;
+                &:last-child {float: none;}
+            }
+        }
+    }
+
+    .services-notavailable-h {
+        label {
+            margin-right: 2em;
+            @media @phone {width: 100%; margin-bottom: 1em;}
+        }
+    }
+}
+
+.post-type-sln_service {
+    textarea#excerpt {min-height: 150px;}
+}
+
+// /// SERVICES END
+
+
+
+// /// /// /// /// /// /// /// //
+// /// BOOKING
+// /// /// /// /// /// /// /// //
+
+#sln_booking-details {
+    * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    .row.form-inline {
+        margin-top: 1em;
+        @media only screen and (min-width: 1024px) and (max-width: 1279px) {
+            .col-md-6 {width: 100%;}
+            .col-md-6:nth-child(2) {margin-top: 1em;}
+        }
+
+        @media @phone {
+            select {margin-bottom: 1em;}
+        }
+
+    }
+    .sln_meta_field {
+        .row:before {
+            content:"";
+            display: block;
+            width: 95%;
+            height: 1px;
+            //background-color: #f9f9f9;
+            border-top: 1px dotted #eee;
+            margin: 15px 18px;
+        }
+    }
+    textarea#_sln_booking_note {min-height: 150px;margin-right: 18px;}
+
+    .sln_booking-service-price {
+        font-size: 1.1em; font-weight: bold;
+        @media @phone {
+            margin-top: .4em;
+        }
+    }
+
+    .sln_booking-service-info {
+        @media @phone {
+            label {padding-right: 1em;}
+        }
+    }
+
+    label {
+        font-weight: normal;
+        strong {
+            display: block;
+            font-size: 1.1em;
+            margin-bottom: .4em;
+        }
+    }
+
+    .sln_booking-topbuttons {
+        padding-bottom: 1em;
+        margin: 1em 0 1.5em 0;
+        border-bottom: 1px solid #ddd;
+        .row {
+            padding: 1em 0;
+        }
+        .sln_accept-refuse {
+            border-left: 1px solid #ddd; 
+            @media @desktop-xl {padding-left: 9.75%;}
+            @media @phone {
+                border-left: none;
+                border-top: 1px solid #ddd;
+                margin-top: 1em;
+                padding-top: 1em;
+                .row {padding-top: 0;}
+            }
+        }
+
+        h2 {
+            margin-bottom: 0;
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+        .btn {
+            width: 100%;
+            font-size: 18px;
+            margin-top: -2px;
+            margin-right: 0;
+            margin-left: 0;
+            padding: 6px 0;
+            @media @tablet-port {
+                padding: 5px 0;
+                font-size: 20px;
+            }
+            @media @phone {
+                width: 100%;
+                margin-top: .6em;
+            }
+        }
+    }
+}
+
+.show--phone {
+    @media @tablet {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+.hide--phone {
+    @media @phone {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+// /// BOOKING END
+
