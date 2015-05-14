@@ -156,9 +156,10 @@ http://plugins.wpchef.it/downloads/salon-booking-wordpress-plugin/
 == Changelog ==
 
 
-1.0.1
+1.0.1 13/05/2015
 
-Added "Attendands selection" option
-Added "SMS Verification" option
-Add "Salon staff" new users role
-Fixed booking system bug
+* Added "Attendands selection" option
+* Added "SMS Verification" option
+* Add "Salon staff" new users role
+* Fixed booking system bug
+* Fixed bug on saving booking status 
