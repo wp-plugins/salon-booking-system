@@ -162,4 +162,3 @@ http://plugins.wpchef.it/downloads/salon-booking-wordpress-plugin/
 * Added "SMS Verification" option
 * Add "Salon staff" new users role
 * Fixed booking system bug
-* Fixed bug on saving booking status 
