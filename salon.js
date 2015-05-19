@@ -38,6 +38,7 @@ function sln_stepDate($) {
         var func = function(){
         $('[data-ymd]').addClass('disabled');
         $.each(items.dates, function(key, value) {
+           console.log(value);
            $('[data-ymd="'+value+'"]').removeClass('disabled');
         });
         $.each(items.times, function(key, value) {
@@ -145,7 +146,8 @@ function sln_serviceTotal($) {
                     autoclose: true,
                     minView:2,
                     maxView:4,
-                    todayBtn: true
+                    todayBtn: true,
+                    language: $(this).data('locale')
                 })
                  .on('show',function(){$('body').trigger('sln_date');})
                  .on('changeMonth',function(){$('body').trigger('sln_date');})
