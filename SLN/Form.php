@@ -40,14 +40,18 @@ class SLN_Form
 
     static public function fieldJSDate($name, $value = null, $settings = array()){
         ?><span class="sln-jsdate">
-        <div class="sln_datepicker"><input type="text" name="<?php echo $name ?>" id="<?php echo self::makeID($name) ?>" required="required" data-format="d M yyyy" class="form-control" value="<?php echo $value->format('d M Y') ?>"></div>
+        <div class="sln_datepicker"><input type="text" name="<?php echo $name ?>" id="<?php echo self::makeID($name) ?>" 
+            required="required" data-format="d M yyyy" class="form-control" 
+            value="<?php echo $value->format('d M Y') ?>" data-locale="<?php echo strtolower(substr(get_locale(),0,2))?>"/></div>
         </span><?php
     }
 
     static public function fieldJSTime($name, $value, $settings){ 
             $interval = isset($settings['interval']) ? $settings['interval'] : 60;
         ?><span class="sln-jstime">
-        <div class="sln_timepicker"><input type="text" name="<?php echo $name ?>" id="<?php echo self::makeID($name) ?>" required="required" data-format="hh:ii" class="form-control" value="<?php echo $value->format('H:i') ?>" data-interval="<?php echo $interval ?>"></div>
+        <div class="sln_timepicker"><input type="text" name="<?php echo $name ?>" id="<?php echo self::makeID($name) ?>" 
+            required="required" data-format="hh:ii" class="form-control"
+            value="<?php echo $value->format('H:i') ?>" data-interval="<?php echo $interval ?>" data-locale="<?php echo strtolower(substr(get_locale(),0,2))?>"/></div>
         </span><?php
     }
 

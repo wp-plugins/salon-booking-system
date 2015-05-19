@@ -27,7 +27,7 @@ class SLN_Action_Install
             update_option(SLN_Settings::KEY, $data['settings']);
         }
 
-        new SLN_UserRole_SalonStaff($this, SLN_Plugin::USER_ROLE_STAFF, __('Salon staff', 'sln'));
+        new SLN_UserRole_SalonStaff(SLN_Plugin::getInstance(), SLN_Plugin::USER_ROLE_STAFF, __('Salon staff', 'sln'));
     }
 
     private static function checkPost($title, $post_type)
