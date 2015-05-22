@@ -1,9 +1,0 @@
-{
-    "name": "wordpress-plugin-salon",
-    "private": "true",
-    "dependencies": {
-        "bootstrap": "3.2.*",
-        "bootstrap-calendar": "0.2.4",
-        "smalot-bootstrap-datetimepicker": "2.3.0"
-    }
-}
