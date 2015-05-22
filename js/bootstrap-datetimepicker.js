@@ -58,7 +58,7 @@
 		this.isInput = this.element.is('input');
 
 
-		this.bootcssVer = this.isInput ? (this.element.is('.form-control') ? 3 : 2) : ( this.bootcssVer = this.element.is('.input-group') ? 3 : 2 );
+		this.bootcssVer = 3; //this.isInput ? (this.element.is('.form-control') ? 3 : 2) : ( this.bootcssVer = this.element.is('.input-group') ? 3 : 2 );
 
 		this.component = this.element.is('.date') ? ( this.bootcssVer == 3 ? this.element.find('.input-group-addon .glyphicon-th, .input-group-addon .glyphicon-time, .input-group-addon .glyphicon-calendar').parent() : this.element.find('.add-on .icon-th, .add-on .icon-time, .add-on .icon-calendar').parent()) : false;
 		this.componentReset = this.element.is('.date') ? ( this.bootcssVer == 3 ? this.element.find('.input-group-addon .glyphicon-remove').parent() : this.element.find('.add-on .icon-remove').parent()) : false;
@@ -1622,9 +1622,9 @@
 			'</thead>',
 		headTemplateV3:   '<thead>' +
 							  '<tr>' +
-							  '<th class="prev"><i class="icon icon-arrow-left"></i> </th>' +
+							  '<th class="prev"><i class="glyphicon glyphicon-arrow-left"></i> </th>' +
 							  '<th colspan="5" class="switch"></th>' +
-							  '<th class="next"><i class="icon icon-arrow-right"></i> </th>' +
+							  '<th class="next"><i class="glyphicon glyphicon-arrow-right"></i> </th>' +
 							  '</tr>' +
 			'</thead>',
 		contTemplate:     '<tbody><tr><td colspan="7"></td></tr></tbody>',

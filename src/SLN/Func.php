@@ -5,9 +5,9 @@ class SLN_Func
     public static function getDays()
     {
         $timestamp = strtotime('next Sunday');
-        $ret       = array();
+        $ret = array();
         for ($i = 1; $i <= 7; $i++) {
-            $ret[$i]   = self::getDateDayName($timestamp);
+            $ret[$i] = self::getDateDayName($timestamp);
             $timestamp = strtotime('+1 day', $timestamp);
         }
 
@@ -30,13 +30,12 @@ class SLN_Func
         return floor($datediff / (60 * 60 * 24));
     }
 
-    public static function getMonths($localized = false)
+    public static function getMonths()
     {
         $timestamp = strtotime("1970-01-01");
-        $ret       = array();
-        $format = $localized ? 'M' : 'F';
+        $ret = array();
         for ($i = 1; $i <= 12; $i++) {
-            $ret[$i]   = date_i18n($format, $timestamp);
+            $ret[$i] = date_i18n('M', $timestamp);
             $timestamp = strtotime('+1 month', $timestamp);
         }
 
@@ -85,9 +84,11 @@ class SLN_Func
         } elseif ($filter == 'date') {
             if (is_array($val)) {
                 $val = $val['year'] . '-' . $val['month'] . '-' . $val['day'];
+            } elseif (strpos($val, ' ') !== false) {
+                $val = self::evalPickedDate($val);
             }
             $ret = date('Y-m-d', strtotime($val));
-            if($ret == '1970-01-01') throw new Exception(sprintf('wrong date %s', $val));
+            if ($ret == '1970-01-01') throw new Exception(sprintf('wrong date %s', $val));
             return $ret;
         } elseif ($filter == 'bool') {
             return $val ? true : false;
@@ -106,6 +107,19 @@ class SLN_Func
         } else {
             return $val;
         }
+    }
+
+    public static function evalPickedDate($date)
+    {
+        $date = explode(' ', $date);
+        foreach (SLN_Func::getMonths() as $k => $v) {
+            if (strcasecmp($date[1], $v) == 0) {
+                $ret = $date[2] . '-' . ($k < 10 ? '0' . $k : $k) . '-' . $date[0];
+                return $ret;
+            }
+        }
+
+        throw new Exception('wrong date');
     }
 
     static function addUrlParam($url, $k, $v)
@@ -132,24 +146,24 @@ class SLN_Func
     public static function getIntervalItems()
     {
         return array(
-            ''            => __('Always','sln'),
-            '+30 minutes' => __('half hour','sln'),
-            '+1 hour'     => '1 '.__('hour','sln'),
-            '+2 hours'    => '2 '.__('hours','sln'),
-            '+3 hours'    => '3 '.__('hours','sln'),
-            '+4 hours'    => '4 '.__('hours','sln'),
-            '+8 hours'    => '8 '.__('hours','sln'),
-            '+16 hours'   => '16 '.__('hours','sln'),
-            '+1 day'      => '1 '.__('day','sln'),
-            '+2 days'     => '2 '.__('days','sln'),
-            '+3 days'     => '3 '.__('days','sln'),
-            '+4 days'     => '4 '.__('days','sln'),
-            '+1 week'     => '1 '.__('week','sln'),
-            '+2 weeks'    => '2 '.__('weeks','sln'),
-            '+3 weeks'    => '3 '.__('weeks','sln'),
-            '+1 month'    => '1 '.__('month','sln'),
-            '+2 months'   => '2 '.__('months','sln'),
-            '+3 months'   => '3 '.__('months','sln')
+            ''            => __('Always', 'sln'),
+            '+30 minutes' => __('half hour', 'sln'),
+            '+1 hour'     => '1 ' . __('hour', 'sln'),
+            '+2 hours'    => '2 ' . __('hours', 'sln'),
+            '+3 hours'    => '3 ' . __('hours', 'sln'),
+            '+4 hours'    => '4 ' . __('hours', 'sln'),
+            '+8 hours'    => '8 ' . __('hours', 'sln'),
+            '+16 hours'   => '16 ' . __('hours', 'sln'),
+            '+1 day'      => '1 ' . __('day', 'sln'),
+            '+2 days'     => '2 ' . __('days', 'sln'),
+            '+3 days'     => '3 ' . __('days', 'sln'),
+            '+4 days'     => '4 ' . __('days', 'sln'),
+            '+1 week'     => '1 ' . __('week', 'sln'),
+            '+2 weeks'    => '2 ' . __('weeks', 'sln'),
+            '+3 weeks'    => '3 ' . __('weeks', 'sln'),
+            '+1 month'    => '1 ' . __('month', 'sln'),
+            '+2 months'   => '2 ' . __('months', 'sln'),
+            '+3 months'   => '3 ' . __('months', 'sln')
         );
 
         return array(
@@ -178,30 +192,34 @@ class SLN_Func
     {
         $start = "00:00";
 
-        $curr     = strtotime($start);
+        $curr = strtotime($start);
         $interval = isset($interval) ?
             $interval :
             SLN_Plugin::getInstance()->getSettings()->getInterval();
         $maxItems = isset($maxItems) ?
             $maxItems : 1440;
-        $items    = array();
+        $items = array();
         do {
             $items[] = date("H:i", $curr);
-            $curr    = strtotime('+' . $interval . ' minutes', $curr);
+            $curr = strtotime('+' . $interval . ' minutes', $curr);
             $maxItems--;
         } while (date("H:i", $curr) != $start && $maxItems > 0);
 
         return $items;
     }
-    public static function getMinutesFromDuration($duration){
-        if(is_string($duration)){
-        $tmp = explode($duration,':');
-        return ($tmp[0]*60) + $tmp[1];
-        }else{
+
+    public static function getMinutesFromDuration($duration)
+    {
+        if (is_string($duration)) {
+            $tmp = explode($duration, ':');
+            return ($tmp[0] * 60) + $tmp[1];
+        } else {
             return 0;
         }
     }
-    public static  function convertToHoursMins($time, $format = '%02d:%02d') {
+
+    public static function convertToHoursMins($time, $format = '%02d:%02d')
+    {
         settype($time, 'integer');
         if ($time < 1) {
             return;
