@@ -1,0 +1,1326 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Salon booking\n"
+"POT-Creation-Date: 2015-06-01 17:48+0100\n"
+"PO-Revision-Date: 2015-06-01 17:49+0100\n"
+"Last-Translator: dimitri <dimitri@studiograssi.eu>\n"
+"Language-Team: Wordpress Chef <contact@wordpresschef.it>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Lavori_Dimitri/Plugin/bitbuket\n"
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Formatter.php:22
+msgid "free"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Formatter.php:31
+msgid "l M j, Y @ G:i"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Formatter.php:42
+msgid "M j, Y"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:150
+msgid "Always"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:151
+msgid "half hour"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:152
+msgid "hour"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:153
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:154
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:155
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:156
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:157
+msgid "hours"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:158
+msgid "day"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:159
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:160
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:161
+msgid "days"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:162
+msgid "week"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:163
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:164
+msgid "weeks"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:165
+msgid "month"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:166
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Func.php:167
+msgid "months"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Plugin.php:92
+msgid "checking availability"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Action/Install.php:30
+msgid "Salon staff"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Action/Ajax/CheckDate.php:37
+#, php-format
+msgid "The date is too old, the minimum allowed is %s"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Action/Ajax/CheckDate.php:40
+#, php-format
+msgid "The date is too far, the maximum allowed is %s"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Action/Ajax/CheckDate.php:43
+#, php-format
+msgid "We are unavailable at %s"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Action/Ajax/CheckDate.php:49
+msgid "There are no time slots available today - Please select a different day"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Action/Ajax/CheckDate.php:56
+msgid ""
+"There are no time slots available for this period - Please select a  "
+"different hour"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Calendar.php:21
+msgid "Salon Calendar"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Calendar.php:22
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin/calendar.php:20
+msgid "Calendar"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:28
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:29
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:99
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:149
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:111
+msgid "Salon"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:38
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:249
+msgid "Salon Settings"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:39
+msgid "Settings"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:128
+msgid "remember to customize your settings"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:129
+msgid "Reset completed with success"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:166
+msgid "general settings are updated"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:167
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:202
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:228
+msgid "Update completed with success"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:201
+msgid "booking settings are updated"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:227
+msgid "payments settings are updated"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:243
+msgid "try again"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Admin/Settings.php:243
+msgid "Page verification failed"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Enum/BookingStatus.php:41
+msgid "ERROR"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Enum/BookingStatus.php:42
+msgid "Pending"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Enum/BookingStatus.php:43
+msgid "Paid"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Enum/BookingStatus.php:44
+msgid "Pay later"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Enum/BookingStatus.php:45
+msgid "Canceled"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Enum/BookingStatus.php:46
+msgid "Confirmed"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Enum/SmsProvider.php:51
+msgid "test (sms code is sent by mail to the admin)"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Helper/Availability.php:147
+msgid "This assistant is not available  "
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Helper/Availability.php:155
+msgid "This assistant is unavailable during this period"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Helper/Availability.php:166
+msgid "This service is unavailable "
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Helper/Availability.php:176
+msgid "The service for this hour is currently full"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Metabox/Attendant.php:10
+msgid "Assistant Details"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Metabox/Attendant.php:19
+msgid "Assistant description"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Metabox/Attendant.php:31
+msgid "Assistant Description"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Metabox/Attendant.php:35
+msgid "A very short description of this assistant. It is optional"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Metabox/Booking.php:10
+msgid "Booking details"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Metabox/Service.php:10
+msgid "Service details"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Metabox/Service.php:19
+msgid "Service description"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Metabox/Service.php:31
+msgid "Service Description"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Metabox/Service.php:35
+msgid "A very short description of this service. It is optional"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:37
+msgid "Enter the assistant name"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:50
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:54
+msgid "Assistant updated."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:56
+#, php-format
+msgid "Assistant restored to revision from %s"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:60
+msgid "Assistant published."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:62
+msgid "Assistant saved."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:64
+msgid "Assistant submitted."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:68
+#, php-format
+msgid "Assistant scheduled for: <strong>%1$s</strong>. "
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:71
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:115
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:83
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:74
+msgid "Assistant draft updated."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:97
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:101
+msgid "Assistants"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:98
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_summary.php:30
+msgid "Assistant"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:100
+msgid "Salon Assistant"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:102
+msgid "Add Assistant"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:103
+msgid "Add New Assistant"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:104
+msgid "Edit Assistant"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:105
+msgid "New Assistant"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:106
+msgid "View Assistant"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:107
+msgid "Search Assistants"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:108
+msgid "No assistants found"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:109
+msgid "No assistants found in trash"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Attendant.php:110
+msgid "Assistants Archive"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:34
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_header.php:24
+msgid "Booking ID"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:35
+msgid "User name"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:36
+msgid "Submitted"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:37
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_header.php:27
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:67
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:102
+msgid "Status"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:38
+msgid "Booking Date"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:39
+msgid "Booking Price"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:42
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:25
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:114
+msgid "Attendant"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:81
+msgid "Enter booking name"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:94
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:98
+msgid "Booking updated."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:100
+#, php-format
+msgid "Booking restored to revision from %s"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:104
+msgid "Booking published."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:106
+msgid "Booking saved."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:108
+msgid "Booking submitted."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:112
+#, php-format
+msgid "Booking scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:118
+msgid "Booking draft updated."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:129
+msgid "This is where bookings are stored."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:147
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:151
+msgid "Bookings"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:148
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:214
+msgid "Booking"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:150
+msgid "Salon Booking"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:152
+msgid "Add Booking"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:153
+msgid "Add New Booking"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:154
+msgid "Edit Booking"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:155
+msgid "New Booking"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:156
+msgid "View Booking"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:157
+msgid "Search Bookings"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:158
+msgid "No bookings found"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:159
+msgid "No bookings found in trash"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:160
+msgid "Booking Archive"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Booking.php:213
+msgid "Save Booking"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:23
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:181
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/service.php:21
+msgid "Duration"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:24
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/service.php:7
+msgid "Price"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:49
+msgid "Enter service name"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:62
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:66
+msgid "Service updated."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:68
+#, php-format
+msgid "Service restored to revision from %s"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:72
+msgid "Service published."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:74
+msgid "Service saved."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:76
+msgid "Service submitted."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:80
+#, php-format
+msgid "Service scheduled for: <strong>%1$s</strong>. "
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:86
+msgid "Service draft updated."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:109
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:113
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:41
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:138
+msgid "Services"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:110
+msgid "Service"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:112
+msgid "Salon Service"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:114
+msgid "Add Service"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:115
+msgid "Add New Service"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:116
+msgid "Edit Service"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:117
+msgid "New Service"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:118
+msgid "View Service"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:119
+msgid "Search Services"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:120
+msgid "No services found"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:121
+msgid "No services found in trash"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/PostType/Service.php:122
+msgid "Services Archive"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/AbstractUserStep.php:25
+msgid "username can't be empty"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/AbstractUserStep.php:28
+msgid "password can't be empty"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/AbstractUserStep.php:40
+msgid "Bad credentials"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/DetailsStep.php:25
+msgid "First name can't be empty"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/DetailsStep.php:28
+msgid "Last name can't be empty"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/DetailsStep.php:31
+msgid "e-mail can't be empty"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/DetailsStep.php:34
+msgid "Mobile phone can't be empty"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/DetailsStep.php:37
+msgid "Address can't be empty"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/DetailsStep.php:40
+msgid "e-mail is not valid"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/DetailsStep.php:50
+msgid "E-mail exists"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/DetailsStep.php:53
+msgid "Passwords are different"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/ServicesStep.php:20
+msgid "You must choose at least one service"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Shortcode/Salon/SmsStep.php:44
+msgid "Your verification code is not valid"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Wrapper/Attendant.php:66
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Wrapper/Service.php:100
+msgid "on "
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Wrapper/Attendant.php:70
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Wrapper/Service.php:104
+msgid " from "
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Wrapper/Attendant.php:73
+#: /Lavori_Dimitri/Plugin/bitbuket/src/SLN/Wrapper/Service.php:107
+msgid " to "
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin_notices.php:2
+msgid "Salon booking plugin has been activated"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin_notices.php:4
+msgid ""
+"<p>A new <strong>\"Salon\"</strong> section has been created into the left "
+"sidebar<br/>There you can find <strong>\"Services\", \"Bookings\", \"Settings"
+"\"</strong> sections<br/>We have also created \"services\" and \"bookings\" "
+"for demo purpose. Feel free to delete them<br/>Go to \"Salon > Settings\" "
+"section in order to set your own salon booking system</p>"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin_notices.php:9
+msgid "Dismiss this notice"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin/calendar.php:30
+msgid "Previous"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin/calendar.php:31
+msgid "Today"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin/calendar.php:32
+msgid "Next"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin/calendar.php:37
+msgid "Year"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin/calendar.php:38
+msgid "Month"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin/calendar.php:39
+msgid "Week"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin/calendar.php:40
+msgid "Day"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin/calendar.php:50
+msgid "Legend"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/admin/calendar.php:53
+msgid "or"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:12
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:94
+msgid "Date"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:18
+msgid "Time"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:61
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_summary.php:44
+msgid "Total amount"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:117
+msgid "Click here to approve "
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:119
+msgid "booking request."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:126
+msgid "Your booking is pending, please await our confirmation."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:134
+msgid "This is an e-mail notification of a new booking"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:138
+msgid "This is an e-mail confirmation of your booking at"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:152
+msgid "Please take note of the following booking details."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:169
+msgid "Our address"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:182
+msgid "Contacts"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:217
+msgid "Important notes"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:239
+msgid "Customer message:"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:241
+msgid "Please confirm or reject this booking from administration"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/_summary_content.php:244
+msgid "View this booking into administration."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/payment_confirmed.php:10
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_summary.php:15
+msgid "Dear"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/payment_confirmed.php:13
+msgid "We received the payment for your booking."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/status_canceled.php:16
+msgid "Booking Canceled"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/mail/status_confirmed.php:17
+msgid "Booking confirmed"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/attendant.php:14
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:65
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:26
+msgid "E-mail"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/attendant.php:20
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/service.php:34
+msgid "Not available on"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/attendant.php:35
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/service.php:52
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:23
+msgid "From"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/attendant.php:44
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/service.php:61
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:23
+msgid "To"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/attendant.php:52
+msgid ""
+"Leave this option blank if you want this assistant available for every hour "
+"each day"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:13
+msgid "Re-send email notification to "
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:25
+msgid "This booking waits for confirmation!"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:29
+msgid "Accept"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:32
+msgid "Refuse"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:47
+msgid "Firstname"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:56
+msgid "Lastname"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:74
+msgid "Phone"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:84
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:57
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:95
+msgid "Address"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:169
+msgid "Personal message"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:193
+msgid "Amount"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/booking.php:202
+msgid "n.a."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/service.php:14
+msgid "Unit per hour"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/service.php:27
+msgid "Secondary"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/service.php:29
+msgid ""
+"Select this if you want this service considered as secondary level service"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/metabox/service.php:70
+msgid ""
+"Leave this option blank if you want this service available for every hour "
+"each day"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:43
+msgid "How many people you can attend during a single time/session?"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:71
+msgid "Define your time-session average duration"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:80
+msgid ""
+"Set these options carefully because it will affect the number of bookings "
+"you can accept for the same <strong>time/session</strong>."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:93
+msgid "Bookings are allowed from"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:112
+msgid "to a maximum of"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:123
+msgid "in advance"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:141
+msgid "On-line booking available days"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:147
+msgid ""
+"The following rules, should represent your real timetable. <br />Leave blank "
+"if you want bookings available everydays at every hour"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:169
+msgid "Add new"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:190
+msgid "Disable online booking"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:199
+msgid ""
+"If checked the online booking form will be disabled and your users will see "
+"a message."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:207
+msgid "Message on disabled booking"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:232
+msgid "Booking confirmation"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:233
+msgid "Select this option to manually confirm each booking."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:237
+msgid "Thank you page"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_booking.php:238
+msgid "Select a page where to redirect your users after booking completition."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:7
+msgid "Your salon name"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:10
+#, php-format
+msgid ""
+"Leaving this field empty will cause the default site name <strong>(%s)</"
+"strong> to be used"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:21
+msgid "Salon contact e-mail"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:24
+#, php-format
+msgid ""
+"Leaving this field empty will cause the default site email  <strong>(%s)</"
+"strong> to be used"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:32
+msgid "Salon telephone number"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:40
+msgid "Salon address"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:54
+msgid "Bookings notes"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:70
+msgid "Enable assistant selection"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:71
+msgid "Let your customers choose their favourite staff member."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:73
+#, php-format
+msgid "You need to add your members staff <a href=\"%s\">Here</a>."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:75
+msgid "Enable assistant email on new bookings"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:76
+msgid "Assistants will receive an e-mail when selected for a new booking."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:77
+msgid "Enable ajax steps"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:78
+msgid "This allows loading steps via ajax."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:82
+msgid "Enable SMS verification"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:83
+msgid ""
+"Avoid spam asking your users to verify their identity with an SMS "
+"verification code during the first registration."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:84
+msgid "Select your service provider"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:97
+msgid "Account"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:100
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:33
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:58
+msgid "Password"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:103
+msgid "Number Prefix"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:106
+msgid "Sender's number"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:116
+msgid "Facebook"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:119
+msgid "Twitter"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_general.php:122
+msgid "Google+"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_homepage.php:3
+msgid ""
+"Use this option to restore all the original settings. All your actual "
+"settings will be lost. <br />This operation can't be undone."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_payments.php:4
+msgid "Enable online payments"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_payments.php:5
+msgid "Allow users to pay in advance using PayPal."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_payments.php:8
+msgid "Enable \"Pay later\" option"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_payments.php:9
+msgid "Give users the option to pay once they are at your salon."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_payments.php:18
+msgid "Enter your PayPal e-mail address"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_payments.php:21
+msgid "Set your currency"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_payments.php:28
+msgid "Set your currency position"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_payments.php:31
+msgid "on left side"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_payments.php:31
+msgid "on right side"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_payments.php:44
+msgid "Enable PayPal sandbox"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/settings/tab_payments.php:45
+msgid ""
+"Check this option to test PayPal payments<br /> using your PayPal Sandbox "
+"account."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/_form_actions.php:7
+msgid "Next step"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/_form_actions.php:32
+msgid "Back"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/_form_actions.php:46
+#, php-format
+msgid "step %s of %s"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/_services.php:62
+msgid "Subtotal"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon.php:17
+#: /Lavori_Dimitri/Plugin/bitbuket/views/trial/shortcode.php:5
+msgid "Book an appointment"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_attendant.php:11
+msgid "Select your assistant"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_date.php:12
+#, php-format
+msgid "you may book from %s up to %s in advance"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_date.php:17
+#, php-format
+msgid "you may book %s in advance"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_date.php:20
+#, php-format
+msgid "you may book up to %s in advance"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_date.php:28
+#: /Lavori_Dimitri/Plugin/bitbuket/views/trial/shortcode.php:17
+msgid "On-line booking is disabled"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_date.php:36
+msgid "When do you want to come?"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_date.php:46
+msgid "select a day"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_date.php:57
+msgid "select an hour"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:22
+msgid "Returning customer?"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:22
+msgid "Please, log-in."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:29
+msgid "Forgot password?"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:46
+msgid "Checkout as a guest"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:47
+msgid "An account will be automatically created"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:53
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:91
+msgid "First name"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:54
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:92
+msgid "Last name"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:55
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:93
+msgid "e-mail"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:56
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:94
+msgid "Mobile phone"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:59
+msgid "Confirm your password"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_details.php:86
+msgid "Checkout"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_secondary.php:11
+msgid "Something more?"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_services.php:12
+msgid "What do you need?"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_sms.php:14
+msgid "SMS sent successfully."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_sms.php:17
+msgid "SMS Verification"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_sms.php:19
+msgid "We have sent an SMS text on your mobile phone."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_sms.php:24
+msgid "Your telephone number is verified"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_sms.php:32
+msgid "digit your verification code"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_sms.php:40
+msgid "I didn't received the code, please send it again"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_summary.php:13
+msgid "Booking summary"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_summary.php:18
+msgid "Here the details of your booking:"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_summary.php:22
+msgid "Date and time booked"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_summary.php:37
+msgid "Services booked"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_summary.php:55
+msgid "Do you have any message for us?"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_summary.php:59
+msgid "Leave a message"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_summary.php:63
+msgid "Finalise"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:15
+msgid "Booking status"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:17
+msgid "Booking Confirmation"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:23
+msgid "The payment on paypal is failed, please try again."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:28
+msgid "Your booking is pending"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:28
+msgid "Your booking is confirmed"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:35
+msgid "Booking number"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:41
+msgid "You will receive a confirmation of your booking by email."
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:42
+#, php-format
+msgid ""
+"If you don't receive any news from us or you need to change your reservation "
+"please call the %s or send an e-mail to %s"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:46
+#, php-format
+msgid ""
+"If you need to change your reservation please call the %s or send an e-mail "
+"to %s"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:51
+msgid "Terms & conditions"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:68
+msgid "Pay with Paypal"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:72
+msgid "Or"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:77
+msgid "I'll pay later"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/shortcode/salon_thankyou.php:84
+msgid "Confirm"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/trial/admin_end.php:2
+msgid "Salon booking plugin is expired"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/trial/admin_end.php:4
+#: /Lavori_Dimitri/Plugin/bitbuket/views/trial/admin_near.php:4
+msgid "<p>Update your plugin to a premium version</p>"
+msgstr ""
+
+#: /Lavori_Dimitri/Plugin/bitbuket/views/trial/admin_near.php:2
+msgid "Salon booking plugin is almost expiring"
+msgstr ""
