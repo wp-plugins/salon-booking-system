@@ -1,0 +1,1374 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Salon booking\n"
+"POT-Creation-Date: 2015-07-27 09:46+0100\n"
+"PO-Revision-Date: 2015-07-27 09:56+0100\n"
+"Last-Translator: dimitri <contact@wordpresschef.it>\n"
+"Language-Team: Wordpress Chef <contact@wordpresschef.it>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/dimitri/Downloads/wordpresschef-salon-booking-"
+"plugin-a3e37c9a1cb4\n"
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/salon.php:27
+msgid "ATTENTION! Back-up your translations files before update."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Formatter.php:22
+msgid "free"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Formatter.php:31
+msgid "l M j, Y @ G:i"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Formatter.php:42
+msgid "M j, Y"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:150
+msgid "Always"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:151
+msgid "half hour"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:152
+msgid "hour"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:153
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:154
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:155
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:156
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:157
+msgid "hours"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:158
+msgid "day"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:159
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:160
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:161
+msgid "days"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:162
+msgid "week"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:163
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:164
+msgid "weeks"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:165
+msgid "month"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:166
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Func.php:167
+msgid "months"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Plugin.php:93
+msgid "checking availability"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Action/Install.php:30
+msgid "Salon staff"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Action/Ajax/CheckDate.php:37
+#, php-format
+msgid "The date is too near, the minimum allowed is %s"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Action/Ajax/CheckDate.php:40
+#, php-format
+msgid "The date is too far, the maximum allowed is %s"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Action/Ajax/CheckDate.php:43
+#, php-format
+msgid "We are unavailable at %s"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Action/Ajax/CheckDate.php:49
+msgid "There are no time slots available today - Please select a different day"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Action/Ajax/CheckDate.php:56
+msgid ""
+"There are no time slots available for this period - Please select a  "
+"different hour"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Calendar.php:21
+msgid "Salon Calendar"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Calendar.php:22
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin/calendar.php:20
+msgid "Calendar"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:28
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:29
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:99
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:149
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:111
+msgid "Salon"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:38
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:255
+msgid "Salon Settings"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:39
+msgid "Settings"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:129
+msgid "remember to customize your settings"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:130
+msgid "Reset completed with success"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:171
+msgid "general settings are updated"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:172
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:208
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:234
+msgid "Update completed with success"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:207
+msgid "booking settings are updated"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:233
+msgid "payments settings are updated"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:249
+msgid "try again"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Admin/Settings.php:249
+msgid "Page verification failed"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Enum/AvailabilityModeProvider.php:48
+msgid "Basic (checks only the booking date)"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Enum/AvailabilityModeProvider.php:49
+msgid "Advanced (evaluates also booking duration)"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Enum/BookingStatus.php:41
+msgid "ERROR"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Enum/BookingStatus.php:42
+msgid "Pending"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Enum/BookingStatus.php:43
+msgid "Paid"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Enum/BookingStatus.php:44
+msgid "Pay later"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Enum/BookingStatus.php:45
+msgid "Canceled"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Enum/BookingStatus.php:46
+msgid "Confirmed"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Enum/SmsProvider.php:51
+msgid "test (sms code is sent by mail to the admin)"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Helper/Availability.php:111
+msgid "This assistant is not available  "
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Helper/Availability.php:119
+msgid "This assistant is unavailable during this period"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Helper/Availability.php:130
+msgid "This service is unavailable "
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Helper/Availability.php:140
+msgid "The service for this hour is currently full"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Metabox/Attendant.php:10
+msgid "Assistant Details"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Metabox/Attendant.php:19
+msgid "Assistant description"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Metabox/Attendant.php:31
+msgid "Assistant Description"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Metabox/Attendant.php:35
+msgid "A very short description of this assistant. It is optional"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Metabox/Booking.php:10
+msgid "Booking details"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Metabox/Service.php:10
+msgid "Service details"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Metabox/Service.php:19
+msgid "Service description"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Metabox/Service.php:31
+msgid "Service Description"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Metabox/Service.php:35
+msgid "A very short description of this service. It is optional"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:37
+msgid "Enter the assistant name"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:50
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:54
+msgid "Assistant updated."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:56
+#, php-format
+msgid "Assistant restored to revision from %s"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:60
+msgid "Assistant published."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:62
+msgid "Assistant saved."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:64
+msgid "Assistant submitted."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:68
+#, php-format
+msgid "Assistant scheduled for: <strong>%1$s</strong>. "
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:71
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:115
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:83
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:74
+msgid "Assistant draft updated."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:97
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:101
+msgid "Assistants"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:98
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_summary.php:31
+msgid "Assistant"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:100
+msgid "Salon Assistant"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:102
+msgid "Add Assistant"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:103
+msgid "Add New Assistant"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:104
+msgid "Edit Assistant"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:105
+msgid "New Assistant"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:106
+msgid "View Assistant"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:107
+msgid "Search Assistants"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:108
+msgid "No assistants found"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:109
+msgid "No assistants found in trash"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Attendant.php:110
+msgid "Assistants Archive"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:34
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_header.php:24
+msgid "Booking ID"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:35
+msgid "User name"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:36
+msgid "Submitted"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:37
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_header.php:27
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:67
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:102
+msgid "Status"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:38
+msgid "Booking Date"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:39
+msgid "Booking Price"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:42
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:25
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:114
+msgid "Attendant"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:81
+msgid "Enter booking name"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:94
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:98
+msgid "Booking updated."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:100
+#, php-format
+msgid "Booking restored to revision from %s"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:104
+msgid "Booking published."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:106
+msgid "Booking saved."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:108
+msgid "Booking submitted."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:112
+#, php-format
+msgid "Booking scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:118
+msgid "Booking draft updated."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:129
+msgid "This is where bookings are stored."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:147
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:151
+msgid "Bookings"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:148
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:214
+msgid "Booking"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:150
+msgid "Salon Booking"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:152
+msgid "Add Booking"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:153
+msgid "Add New Booking"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:154
+msgid "Edit Booking"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:155
+msgid "New Booking"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:156
+msgid "View Booking"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:157
+msgid "Search Bookings"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:158
+msgid "No bookings found"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:159
+msgid "No bookings found in trash"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:160
+msgid "Booking Archive"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Booking.php:213
+msgid "Save Booking"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:23
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:181
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/service.php:21
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/_services.php:42
+msgid "Duration"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:24
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/service.php:7
+msgid "Price"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:49
+msgid "Enter service name"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:62
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:66
+msgid "Service updated."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:68
+#, php-format
+msgid "Service restored to revision from %s"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:72
+msgid "Service published."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:74
+msgid "Service saved."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:76
+msgid "Service submitted."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:80
+#, php-format
+msgid "Service scheduled for: <strong>%1$s</strong>. "
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:86
+msgid "Service draft updated."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:109
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:113
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:41
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:138
+msgid "Services"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:110
+msgid "Service"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:112
+msgid "Salon Service"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:114
+msgid "Add Service"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:115
+msgid "Add New Service"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:116
+msgid "Edit Service"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:117
+msgid "New Service"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:118
+msgid "View Service"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:119
+msgid "Search Services"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:120
+msgid "No services found"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:121
+msgid "No services found in trash"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/PostType/Service.php:122
+msgid "Services Archive"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/AbstractUserStep.php:25
+msgid "username can't be empty"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/AbstractUserStep.php:28
+msgid "password can't be empty"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/AbstractUserStep.php:40
+msgid "Bad credentials"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/DetailsStep.php:25
+msgid "First name can't be empty"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/DetailsStep.php:28
+msgid "Last name can't be empty"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/DetailsStep.php:31
+msgid "e-mail can't be empty"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/DetailsStep.php:34
+msgid "Mobile phone can't be empty"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/DetailsStep.php:37
+msgid "Address can't be empty"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/DetailsStep.php:40
+msgid "e-mail is not valid"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/DetailsStep.php:50
+msgid "E-mail exists"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/DetailsStep.php:53
+msgid "Passwords are different"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/ServicesStep.php:20
+msgid "You must choose at least one service"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Shortcode/Salon/SmsStep.php:44
+msgid "Your verification code is not valid"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Wrapper/Attendant.php:66
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Wrapper/Service.php:100
+msgid "on "
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Wrapper/Attendant.php:70
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Wrapper/Service.php:104
+msgid " from "
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Wrapper/Attendant.php:73
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/src/SLN/Wrapper/Service.php:107
+msgid " to "
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin_notices.php:2
+msgid "Salon booking plugin has been activated"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin_notices.php:4
+msgid ""
+"<p>A new <strong>\"Salon\"</strong> section has been created into the left "
+"sidebar<br/>There you can find <strong>\"Services\", \"Bookings\", \"Settings"
+"\"</strong> sections<br/>We have also created \"services\" and \"bookings\" "
+"for demo purpose. Feel free to delete them<br/>Go to \"Salon > Settings\" "
+"section in order to set your own salon booking system</p>"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin_notices.php:9
+msgid "Dismiss this notice"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin/calendar.php:30
+msgid "Previous"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin/calendar.php:31
+msgid "Today"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin/calendar.php:32
+msgid "Next"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin/calendar.php:37
+msgid "Year"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin/calendar.php:38
+msgid "Month"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin/calendar.php:39
+msgid "Week"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin/calendar.php:40
+msgid "Day"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin/calendar.php:50
+msgid "Legend"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/admin/calendar.php:53
+msgid "or"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:12
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:94
+msgid "Date"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:18
+msgid "Time"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:61
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_summary.php:49
+msgid "Total amount"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:117
+msgid "Click here to approve "
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:119
+msgid "booking request."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:126
+msgid "Your booking is pending, please await our confirmation."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:134
+msgid "This is an e-mail notification of a new booking"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:138
+msgid "This is an e-mail confirmation of your booking at"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:152
+msgid "Please take note of the following booking details."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:169
+msgid "Our address"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:182
+msgid "Contacts"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:217
+msgid "Important notes"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:239
+msgid "Customer message:"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:241
+msgid "Please confirm or reject this booking from administration"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/_summary_content.php:244
+msgid "View this booking into administration."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/payment_confirmed.php:10
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_summary.php:16
+msgid "Dear"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/payment_confirmed.php:13
+msgid "We received the payment for your booking."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/status_canceled.php:16
+msgid "Booking Canceled"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/mail/status_confirmed.php:17
+msgid "Booking confirmed"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/attendant.php:14
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:65
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:26
+msgid "E-mail"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/attendant.php:20
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/service.php:34
+msgid "Not available on"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/attendant.php:35
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/service.php:52
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:23
+msgid "From"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/attendant.php:44
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/service.php:61
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:23
+msgid "To"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/attendant.php:52
+msgid ""
+"Leave this option blank if you want this assistant available for every hour "
+"each day"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:13
+msgid "Re-send email notification to "
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:17
+msgid "Send"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:25
+msgid "This booking waits for confirmation!"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:29
+msgid "Accept"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:32
+msgid "Refuse"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:47
+msgid "Firstname"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:56
+msgid "Lastname"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:74
+msgid "Phone"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:84
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:57
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:95
+msgid "Address"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:169
+msgid "Personal message"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:193
+msgid "Amount"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/booking.php:202
+msgid "n.a."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/service.php:14
+msgid "Unit per hour"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/service.php:27
+msgid "Secondary"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/service.php:29
+msgid ""
+"Select this if you want this service considered as secondary level service"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/metabox/service.php:70
+msgid ""
+"Leave this option blank if you want this service available for every hour "
+"each day"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:43
+msgid "How many people you can attend during a single time/session?"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:71
+msgid "Define your time-session average duration"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:80
+msgid ""
+"Set these options carefully because it will affect the number of bookings "
+"you can accept for the same <strong>time/session</strong>."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:83
+msgid "Select your availability mode"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:102
+msgid "Bookings are allowed from"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:121
+msgid "to a maximum of"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:132
+msgid "in advance"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:150
+msgid "On-line booking available days"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:156
+msgid ""
+"The following rules, should represent your real timetable. <br />Leave blank "
+"if you want bookings available everydays at every hour"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:168
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:189
+msgid "Remove"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:178
+msgid "Add new"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:199
+msgid "Disable online booking"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:208
+msgid ""
+"If checked the online booking form will be disabled and your users will see "
+"a message."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:216
+msgid "Message on disabled booking"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:241
+msgid "Booking confirmation"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:242
+msgid "Select this option to manually confirm each booking."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:246
+msgid "Thank you page"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_booking.php:247
+msgid "Select a page where to redirect your users after booking completition."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:7
+msgid "Your salon name"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:10
+#, php-format
+msgid ""
+"Leaving this field empty will cause the default site name <strong>(%s)</"
+"strong> to be used"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:21
+msgid "Salon contact e-mail"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:24
+#, php-format
+msgid ""
+"Leaving this field empty will cause the default site email  <strong>(%s)</"
+"strong> to be used"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:32
+msgid "Salon telephone number"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:40
+msgid "Salon address"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:54
+msgid "Bookings notes"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:70
+msgid "Enable assistant selection"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:71
+msgid "Let your customers choose their favourite staff member."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:73
+#, php-format
+msgid "You need to add your members staff <a href=\"%s\">Here</a>."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:75
+msgid "Enable assistant email on new bookings"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:76
+msgid "Assistants will receive an e-mail when selected for a new booking."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:77
+msgid "Enable ajax steps"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:78
+msgid "This allows loading steps via ajax."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:79
+msgid "Hide Prices"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:80
+msgid ""
+"Select this Option if you want to hide all prices from the front end.<br/"
+">Note: Online Payment will be disabled."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:84
+msgid "Enable SMS verification"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:85
+msgid ""
+"Avoid spam asking your users to verify their identity with an SMS "
+"verification code during the first registration."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:86
+msgid "Select your service provider"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:99
+msgid "Account"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:102
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:33
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:58
+msgid "Password"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:105
+msgid "Number Prefix"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:108
+msgid "Sender's number"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:118
+msgid "Facebook"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:121
+msgid "Twitter"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_general.php:124
+msgid "Google+"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_homepage.php:3
+msgid ""
+"Use this option to restore all the original settings. All your actual "
+"settings will be lost. <br />This operation can't be undone."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_homepage.php:7
+msgid "Reset settings"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_payments.php:5
+msgid "Enable online payments"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_payments.php:6
+msgid "Allow users to pay in advance using PayPal."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_payments.php:9
+msgid "Enable \"Pay later\" option"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_payments.php:10
+msgid "Give users the option to pay once they are at your salon."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_payments.php:19
+msgid "Enter your PayPal e-mail address"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_payments.php:22
+msgid "Set your currency"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_payments.php:29
+msgid "Set your currency position"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_payments.php:32
+msgid "on left side"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_payments.php:32
+msgid "on right side"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_payments.php:45
+msgid "Enable PayPal sandbox"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/settings/tab_payments.php:46
+msgid ""
+"Check this option to test PayPal payments<br /> using your PayPal Sandbox "
+"account."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/_form_actions.php:7
+msgid "Next step"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/_form_actions.php:32
+msgid "Back"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/_form_actions.php:46
+#, php-format
+msgid "step %s of %s"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/_services.php:66
+msgid "Subtotal"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon.php:17
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/trial/shortcode.php:5
+msgid "Book an appointment"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_attendant.php:11
+msgid "Select your assistant"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_date.php:12
+#, php-format
+msgid "you may book from %s up to %s in advance"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_date.php:17
+#, php-format
+msgid "you may book %s in advance"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_date.php:20
+#, php-format
+msgid "you may book up to %s in advance"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_date.php:28
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/trial/shortcode.php:17
+msgid "On-line booking is disabled"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_date.php:36
+msgid "When do you want to come?"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_date.php:46
+msgid "select a day"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_date.php:57
+msgid "select an hour"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:22
+msgid "Returning customer?"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:22
+msgid "Please, log-in."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:29
+msgid "Forgot password?"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:46
+msgid "Checkout as a guest"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:47
+msgid "An account will be automatically created"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:53
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:91
+msgid "First name"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:54
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:92
+msgid "Last name"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:55
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:93
+msgid "e-mail"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:56
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:94
+msgid "Mobile phone"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:59
+msgid "Confirm your password"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_details.php:86
+msgid "Checkout"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_secondary.php:11
+msgid "Something more?"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_services.php:12
+msgid "What do you need?"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_sms.php:14
+msgid "SMS sent successfully."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_sms.php:17
+msgid "SMS Verification"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_sms.php:19
+msgid "We have sent an SMS text on your mobile phone."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_sms.php:24
+msgid "Your telephone number is verified"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_sms.php:32
+msgid "digit your verification code"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_sms.php:40
+msgid "I didn't received the code, please send it again"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_summary.php:14
+msgid "Booking summary"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_summary.php:19
+msgid "Here the details of your booking:"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_summary.php:23
+msgid "Date and time booked"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_summary.php:38
+msgid "Services booked"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_summary.php:61
+msgid "Do you have any message for us?"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_summary.php:65
+msgid "Leave a message"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_summary.php:70
+msgid "Terms & conditions"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_summary.php:86
+msgid "Finalise"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:15
+msgid "Booking status"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:17
+msgid "Booking Confirmation"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:23
+msgid "The payment on paypal is failed, please try again."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:28
+msgid "Your booking is pending"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:28
+msgid "Your booking is confirmed"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:35
+msgid "Booking number"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:41
+msgid "You will receive a confirmation of your booking by email."
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:42
+#, php-format
+msgid ""
+"If you don't receive any news from us or you need to change your reservation "
+"please call the %s or send an e-mail to %s"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:44
+msgid "Back to home"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:46
+#, php-format
+msgid ""
+"If you need to change your reservation please call the %s or send an e-mail "
+"to %s"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:57
+msgid "Pay with Paypal"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:61
+msgid "Or"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:66
+msgid "I'll pay later"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/shortcode/salon_thankyou.php:73
+msgid "Confirm"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/trial/admin_end.php:2
+msgid "Salon booking plugin is expired"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/trial/admin_end.php:4
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/trial/admin_near.php:4
+msgid ""
+"<p><a href=\"http://plugins.wordpresschef.it/downloads/salon-booking-"
+"wordpress-plugin/\">Please upgrade Salon Booking to a Premium version</a></p>"
+msgstr ""
+
+#: /Users/dimitri/Downloads/wordpresschef-salon-booking-plugin-a3e37c9a1cb4/views/trial/admin_near.php:2
+msgid ""
+"You are going to reach the bookings limit for the Salon Booking free version"
+msgstr ""
