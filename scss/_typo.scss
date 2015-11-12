@@ -1,0 +1,36 @@
+%font-big {
+  color: $cl_main;
+  font-family: "Open sans", serif;
+  font-size: 18px;
+}
+
+%font-small {
+  color: $cl_main;
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+}
+
+%font-icon {
+  color: white;
+  font-family: "FontAwesome";
+  font-size: 24px;
+}
+
+
+// /// /// /// /// /// /// /// //
+// /// FONT AWESOME
+// /// /// /// /// /// /// /// //
+$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.4.0/fonts" !default;
+$fa-version:          "4.4.0" !default;
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('#{$fa-font-path}/fontawesome-webfont.eot?v=#{$fa-version}');
+  src: url('#{$fa-font-path}/fontawesome-webfont.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'),
+    url('#{$fa-font-path}/fontawesome-webfont.woff2?v=#{$fa-version}') format('woff2'),
+    url('#{$fa-font-path}/fontawesome-webfont.woff?v=#{$fa-version}') format('woff'),
+    url('#{$fa-font-path}/fontawesome-webfont.ttf?v=#{$fa-version}') format('truetype'),
+    url('#{$fa-font-path}/fontawesome-webfont.svg?v=#{$fa-version}#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+// /// FONT AWESOME // END
