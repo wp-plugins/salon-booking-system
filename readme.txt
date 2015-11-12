@@ -41,10 +41,10 @@ Salon booking is provided with a intuitive back-end bookings calendar where the 
 
 **BRAND NEW FEATURES**: 
 
-*GOOGLE CALENDAR INTEGRATION
+* GOOGLE CALENDAR INTEGRATION
 Syncronize all your reservations inside your own Google Calendr and share the information with your staff memebers
 
-*ADD BOOKINGS FROM BACK-END
+* ADD BOOKINGS FROM BACK-END
 If you need to add a manual reservations, that ones received by phone for example, use the back-end interface with a real time
 control of your available date/time slots.
 
@@ -52,21 +52,21 @@ control of your available date/time slots.
 
 **EXISTING FEATURES**:
 
-*SMS Booking notifications
-*SMS Booking reminder
-*SMS Notification to selected assistant
+* SMS Booking notifications
+* SMS Booking reminder
+* SMS Notification to selected assistant
 
-*Pay a deposit
-*Group services by category
-
-
+* Pay a deposit
+* Group services by category
 
 
-*Custom date format
 
-*Advanced booking algorytm - calculate the sum of the duration of the services booked
 
-*Hide prices option - if you don't want to show-up services prices
+* Custom date format
+
+* Advanced booking algorytm - calculate the sum of the duration of the services booked
+
+* Hide prices option - if you don't want to show-up services prices
 
 * Ajax loading option
 
@@ -226,16 +226,16 @@ http://plugins.wpchef.it/downloads/salon-booking-wordpress-plugin/
 
 1.3.0 12/11/2015
 
-*Bug on customer login
-*Bug on back-end bookings archive
-*Wrong link inside the license activation alert
-*Wrong amount on payment step when deposit is disabled
+* Bug on customer login
+* Bug on back-end bookings archive
+* Wrong link inside the license activation alert
+* Wrong amount on payment step when deposit is disabled
 
 1.2.0 05/10/2015
 
-*minor front-end redesign
-*Unit per hour bug fix
-*AM/PM time picker fix
+* minor front-end redesign
+* Unit per hour bug fix
+* AM/PM time picker fix
 * other minor bug fix
 
 
