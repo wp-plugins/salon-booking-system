@@ -1,0 +1,24 @@
+$cl_main: #004664;
+$cl_main--medium: #4c7186;
+$cl_main--light: #c7dff3;
+$cl_main--emphasis: #0C6EB6;
+$cl_problem: #D22221;
+$cl_problem--light: #e63f24;
+$cl_warning: #f5b025;
+$cl_warning--light: #f7c65f;
+$cl_ok: #5bc24c;
+
+
+$browser-context: 16;
+
+@function em($pixels, $context: $browser-context) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1em;
+}

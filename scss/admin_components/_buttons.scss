@@ -1,0 +1,199 @@
+.sln-btn {
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: all 200ms;
+  margin: 0 40px 40px 0;
+  text-decoration: none;
+  position: relative;
+  @extend %zi-navigazione;
+  input {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    z-index: 500;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+// SIZES
+.sln-btn--fullwidth {width: 100%;}
+.sln-btn--big, .sln-btn--big input {
+  display: inline-block;
+  padding: 0 em(20px);
+  height:  em(56px);
+  min-width: 260px;
+  @extend %font-big;
+  line-height: em(56px);
+}
+.sln-btn--medium, .sln-btn--medium input {
+  display: inline-block;
+  min-width: 90px;
+  height: 44px;
+  @extend %font-small;
+  line-height: 44px;
+  padding: 0 15px;
+}
+.sln-btn--small {
+  display: inline-block;
+  height: 30px;
+  @extend %font-small;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 0 10px;
+  &.sln-btn--icon {
+    width: 40px;
+    height: 40px;
+    text-indent: -100px;
+    overflow: hidden;
+    &:after {
+      left: 70px;
+      top: calc(50% - 16px);
+      font-size: 20px;
+    }
+  }
+}
+
+// COLORS
+.sln-btn--main {
+  background-color: $cl_main--emphasis;
+  color: white;
+  input {color: white;}
+  &:hover {
+    background-color: $cl_main;
+  }
+}
+.sln-btn--warning {
+  background-color: $cl_warning;
+  color: white;
+  input {color: white;}
+  &:hover {
+    background-color: $cl_main;
+  }
+}
+.sln-btn--problem {
+  background-color: $cl_problem--light;
+  color: white;
+  input {color: white;}
+  &:hover {
+    background-color: $cl_main;
+  }
+}
+.sln-btn--ok {
+  background-color: $cl_ok;
+  color: white;
+  input {color: white;}
+  &:hover {
+    background-color: $cl_main;
+  }
+}
+.sln-btn--borderonly {
+  background-color: transparent;
+  color: $cl_main;
+  input {color: $cl_main;}
+  border: 1px solid #c5cfd4;
+  &.sln-btn--icon:after {color: $cl_main;}
+  &.sln-btn--active {border: 1px solid $cl_main;}
+  &:hover {
+    border-color: $cl_main;
+    background-color: $cl_main;
+    color: #fff;
+    &.sln-btn--icon:after {color: #fff;}
+  }
+}
+.sln-btn--nobkg {
+  background-color: transparent;
+  color: $cl_main;
+  input {color: $cl_main;}
+  &.sln-btn--icon:after {color: $cl_main;}
+  &.sln-btn--active {border: 1px solid $cl_main;}
+  &:hover {
+    border-color: $cl_main;
+    background-color: $cl_main;
+    color: #fff;
+    &.sln-btn--icon:after {color: #fff;}
+  }
+}
+
+.sln-btn--icon {
+    text-align: left;
+    position: relative;
+    input {text-align: left;}
+    &:after {
+      content: "\f111";
+      display: inline-block;
+      position: absolute;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      text-align: center;
+      @extend %font-icon;
+      transition: all 200ms;
+      z-index: 200;
+    }
+    &.sln-btn--big {
+      padding-right: em(64px);
+      &:after {
+        padding: 0 em(12px);
+        line-height: em(40px);
+      }
+    }
+    &.sln-btn--medium {
+      padding-right: em(54px);
+      &:after {
+        padding: 0 em(12px);
+        font-size: em(18px);
+        line-height: em(40px);
+      }
+    }
+}
+
+.sln-icon--calendar {
+  &:after {
+    content: "\f073";
+  }
+}
+.sln-icon--booking {
+  &:after {
+    content: "\f017";
+  }
+}
+.sln-icon--services {
+  &:after {
+    content: "\f0c4";
+  }
+}
+.sln-icon--assistants {
+  &:after {
+    content: "\f0c0";
+  }
+}
+.sln-icon--settings {
+  &:after {
+    content: "\f013";
+  }
+}
+.sln-icon--save {
+  &:after {
+    content: "\f0c7";
+  }
+}
+
+h2.nav-tab-wrapper .nav-tab {
+    @extend .sln-btn;
+    @extend .sln-btn--borderonly;
+    @extend .sln-btn--medium;
+    margin: 0;
+    &:not(.nav-tab-active):not(:last-of-type)  {
+      border-right: none;
+    }
+}
+h2.nav-tab-wrapper .nav-tab.nav-tab-active {
+    @extend .sln-btn--active;
+}
